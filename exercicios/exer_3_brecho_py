@@ -1,0 +1,10 @@
+####exercicio 7 da lista 3####
+preço=int(input("entre o preço "))
+
+if preço < 50:
+    preço = preço + preço * 45 / 100
+else:
+    preço = preço + preço * 30 /100
+    
+resultado = preço
+print(resultado)

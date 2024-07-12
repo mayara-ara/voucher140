@@ -1,0 +1,6 @@
+####ex tabuada 1 ate 10####
+cont = 1
+num = int(input("digite um numero: "))
+while cont <= 10:
+    print(f"{num} x {cont} = {num * cont} ")
+    cont  += 1

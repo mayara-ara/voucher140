@@ -1,0 +1,11 @@
+####exercicio número 6 lista 3####
+turno = input("TURNO ")
+
+if turno == 'matutino':
+    print('bom dia.')
+elif turno == "vespertino":
+    print('boa tarde.')
+elif turno =="noturno":
+    print("boa noite")
+else:
+    print('valor Inválido.')
